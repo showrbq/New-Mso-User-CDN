@@ -121,7 +121,7 @@ p{margin:0 0 10px}
 .aplayer .aplayer-miniswitcher .aplayer-icon path{fill:#666}
 .aplayer .aplayer-miniswitcher .aplayer-icon:hover path{fill:#000}
 .btn{display:inline-block;font-size:14px;color:#0099ae;border:1px solid #0099ae;padding:6px 20px;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border-radius:4px;margin-top:20px}
-.btn:hover{color:#1f5ad2;border:1px solid #1f5ad2;}
+.btn:hover{color:#1f5ad2;border:1px solid #1f5ad2}
 .btn.about,.btn.try{margin-left:35px}
 .container{margin-right:auto;margin-left:auto}
 .fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;transform:translate(0, 0)}
@@ -150,7 +150,7 @@ p{margin:0 0 10px}
 #home-slider .slider-hill{position:absolute;right:0;bottom:0}
 #home-slider .slider-house{position:absolute;right:110px;bottom:-30px}
 #home-slider .slider-sun{position:absolute;right:365px;bottom:100px}
-#home-slider .slider-birds1{position:absolute;right:470px;bottom:75px;}
+#home-slider .slider-birds1{position:absolute;right:470px;bottom:75px}
 #home-slider .slider-birds2{position:absolute;right:40px;bottom:150px}
 #home-slider .preloader{position:absolute;left:0;top:0;bottom:-30px;right:0;background:#fafafa;text-align:center;z-index:9999}
 #home-slider .preloader>i{font-size:48px;height:48px;line-height:48px;color:#00aeef;position:absolute;left:50%;margin-left:-24px;top:50%;margin-top:-24px}
