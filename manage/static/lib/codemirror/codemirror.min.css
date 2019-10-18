@@ -15,12 +15,9 @@ button.btn[disabled=disabled]{cursor:not-allowed}
 .cm-fat-cursor div.CodeMirror-cursors{z-index:1}
 .cm-fat-cursor-mark{background-color:rgba(20,255,20,.5);-webkit-animation:blink 1.06s steps(1) infinite;-moz-animation:blink 1.06s steps(1) infinite;animation:blink 1.06s steps(1) infinite}
 .cm-animate-fat-cursor{width:auto;border:0;background-color:#7e7;-webkit-animation:blink 1.06s steps(1) infinite;-moz-animation:blink 1.06s steps(1) infinite;animation:blink 1.06s steps(1) infinite}
-@-moz-keyframes blink{50%{background-color:transparent}
-}
-@-webkit-keyframes blink{50%{background-color:transparent}
-}
-@keyframes blink{50%{background-color:transparent}
-}
+@-moz-keyframes blink{50%{background-color:transparent}}
+@-webkit-keyframes blink{50%{background-color:transparent}}
+@keyframes blink{50%{background-color:transparent}}
 .cm-tab{display:inline-block;text-decoration:inherit}
 .CodeMirror-rulers{position:absolute;top:-50px;right:0;bottom:0;left:0;overflow:hidden}
 .CodeMirror-ruler{position:absolute;top:0;bottom:0;border-left:1px solid #ccc}
@@ -92,7 +89,6 @@ div.CodeMirror-dragcursors{visibility:visible}
 .CodeMirror-line::-moz-selection,.CodeMirror-line>span::-moz-selection,.CodeMirror-line>span>span::-moz-selection{background:#d7d4f0}
 .cm-searching{background-color:#ffa;background-color:rgba(255,255,0,.4)}
 .cm-force-border{padding-right:.1px}
-@media print{.CodeMirror div.CodeMirror-cursors{visibility:hidden}
-}
+@media print{.CodeMirror div.CodeMirror-cursors{visibility:hidden}}
 .cm-tab-wrap-hack:after{content:''}
 span.CodeMirror-selectedtext{background:0 0}
