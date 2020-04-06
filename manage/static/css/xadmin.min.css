@@ -34,7 +34,7 @@ button[disabled=disabled]{cursor:not-allowed}
 .container .layui-nav-child i{margin-right:10px}
 .layui-nav .layui-nav-item a{cursor:pointer}
 .layui-nav .layui-nav-child a{color:#333;cursor:pointer}
-.left-nav{position:absolute;top:45px;bottom:0px;left:0;z-index:2;padding-top:10px;background:#fff;width:220px;max-width:220px;overflow:auto;overflow-x:hidden;overflow:hidden;user-select:none}
+.left-nav{position:absolute;top:45px;bottom:0px;left:0;z-index:2;padding-top:10px;background:#fff;width:220px;max-width:220px;overflow-y:auto;overflow-x:hidden;user-select:none}
 #side-nav{width:220px}
 .left-nav #nav li:hover > a{}
 .left-nav #nav .current{background-color:rgba(0,0,0,0.3)}
